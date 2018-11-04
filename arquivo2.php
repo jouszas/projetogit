@@ -1,15 +1,15 @@
 <?php
 
-class Cachorro {
+class Gato {
    
    private $nome;
    private $sexo;
    private $raca;
     
 
-   public function latir(){
+   public function miar(){
 
-        echo "Au Au!";
+        echo "miau miau!";
 
    }
   
