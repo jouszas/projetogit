@@ -24,6 +24,17 @@ class Cachorro {
        $this->nome = $n;
   }
 
+  public function getRaca (){
+         
+         return $this->raca;
+
+  }
+
+  public function setRaca($r){
+      
+       $this->raca = $r;
+  }
+
 }?>
 
 <?php 
@@ -31,8 +42,10 @@ class Cachorro {
 
 $cachorro = new Cachorro();
 $cachorro->setNome("Mel");
-echo "O nome do meu cachorro é : ".$cachorro->getNome().", e ela gosta de latir!";
-echo $cachorro->latir();
+$cachorro->setRaca("Golden Retriver");
+echo "O nome do meu cachorro é : ".$cachorro->getNome().".E ela gosta de latir!";
+echo $cachorro->latir()." - ";
+echo "A sua raca é misturada, porem o que prevalece é a raca: ".$cachorro->getRaca();
 
 
 ?>
