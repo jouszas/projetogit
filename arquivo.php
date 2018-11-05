@@ -38,14 +38,6 @@ class Cachorro {
 }?>
 
 
-wjlnherfkljawnefkjnwekjfnf
-werf
-werf
-ewrf
-er
-erfffffffffffffffffffffffff
-er
-erfejnrçoneporvnpoernvoéinrvónjerv
 
 
 
